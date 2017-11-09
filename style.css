@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 25%;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+.form-container label {
+    width: 100%;
+    margin: .25rem 0;
+    padding: .25rem 1rem;
+}
+
+.form-container form {
+    width: 70%;
+    margin: 0 15%;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+    margin: .5rem;
+
+}
+
+.form-container input[type="date"] {
+    width: 100%;
+    padding: 1rem;
+    margin: .5rem;
+
+}
+
+.btn {
+    border-radius: 5px;
+    background: #22772d;
+    border: 2px solid #103715;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.table-content {
+    width: 80%;
+    margin: 0 10%;
+
+}
+
+.table-content-result {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.table-content-result th {
+    background: #dedede;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-content-result tr {
+    background: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.table-content-result td {
+    background: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
