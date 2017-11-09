@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
 body {
     width: 100%;
     margin: 0;
@@ -58,11 +57,25 @@ body {
 .btn {
     border-radius: 5px;
     background: #22772d;
-    border: 2px solid #103715;
+    border: none;
     color: #FFFFFF;
     width: 50%;
     margin: 1rem auto;
     padding: 1rem;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background: #20a731;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .table-content {
@@ -91,7 +104,6 @@ body {
     text-align: center;
     font-weight: bold;
 }
-
 
 .table-content-result td {
     background: #FFFFFF;
